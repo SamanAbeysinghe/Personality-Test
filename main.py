@@ -72,4 +72,4 @@ def predict_api():
 
 
 if __name__ == '__main__':
-    main.run(debug=True, host="0000")
+    main.run(debug=True, host='0.0.0.0')
