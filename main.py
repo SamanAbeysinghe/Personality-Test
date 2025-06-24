@@ -40,7 +40,7 @@ def predict_form():
 
         scaled = scaler.transform(input_data)
         prediction = model.predict(scaled)[0]
-        result = 'Extrovert' if prediction == 1 else 'Introvert'
+        result = 'Extrovert' if prediction == 0 else 'Introvert'
 
         return f"<h3>Predicted Personality: {result}</h3><a href='/'>Go Back</a>"
 
