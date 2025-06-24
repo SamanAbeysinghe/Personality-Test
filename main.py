@@ -4,8 +4,8 @@ import numpy as np
 
 main = Flask(__name__)
 
-model = joblib.load('personality_classifier_RF.pkl')
-scaler = joblib.load('scaler_RF.pkl')
+model = joblib.load('personality_classifier_RF1.pkl')
+scaler = joblib.load('scaler_RF1.pkl')
 
 
 @main.route('/', methods=['GET'])
